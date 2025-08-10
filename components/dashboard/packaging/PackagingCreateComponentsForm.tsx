@@ -52,7 +52,7 @@ interface PackagingCreateComponentsFormProps {
    onChange: (
       index: number,
       field: keyof PackagingComponentDraft,
-      value: string | number
+      value: string | number | MaterialLayer[]
    ) => void;
    onMaterialChange?: (
       componentIndex: number,
@@ -108,11 +108,10 @@ const PackagingCreateComponentsForm: React.FC<
          ...currentMaterials,
          { ...emptyMaterial },
       ];
-      // Assuming you have a way to update the components state in the parent component
       onChange(
          componentIndex,
          "materials",
-         updatedComponents[componentIndex].materials
+         updatedComponents[componentIndex].materials || []
       );
    };
 
@@ -126,7 +125,7 @@ const PackagingCreateComponentsForm: React.FC<
       onChange(
          componentIndex,
          "materials",
-         updatedComponents[componentIndex].materials
+         updatedComponents[componentIndex].materials || []
       );
    };
 

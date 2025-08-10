@@ -1,4 +1,3 @@
-// store/useAuthStore.ts
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 
@@ -43,11 +42,15 @@ export const useAuthStore = create(
          setRoles: (roles: string[]) => set({ roles }),
       }),
       {
-         name: "auth-storage", // Unique name for localStorage
+         name: "auth-storage", 
          partialize: (state) => ({
             user: state.user,
             isAuthenticated: state.isAuthenticated,
             roles: state.roles,
+            setUser: () => {}, 
+            clearUser: () => {}, 
+            setIsAuthenticated: () => {}, 
+            setRoles: () => {}, 
          }),
       }
    )

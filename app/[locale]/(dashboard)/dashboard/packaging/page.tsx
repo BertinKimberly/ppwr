@@ -14,11 +14,9 @@ import {
    usePackagingList,
    usePackagingItem,
    useUpdatePackaging,
-   useCreatePackaging,
    useUploadPackagingDocument,
    useDeletePackagingDocument,
 } from "@/hooks/usePackaging";
-import { authorizedAPI } from "@/lib/api";
 import { useQueryClient } from "@tanstack/react-query";
 import { PackagingComponentDraft } from "@/components/dashboard/packaging/PackagingCreateComponentsForm";
 

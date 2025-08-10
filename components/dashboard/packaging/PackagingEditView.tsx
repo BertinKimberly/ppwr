@@ -113,7 +113,7 @@ const PackagingEditView: React.FC<PackagingEditViewProps> = ({
    const handleChangeComponent = (
       index: number,
       field: keyof PackagingComponentDraft,
-      value: string | number
+      value: string | number | MaterialLayer[]
    ) => {
       setComponents((prev) =>
          prev.map((c, i) => (i === index ? { ...c, [field]: value } : c))

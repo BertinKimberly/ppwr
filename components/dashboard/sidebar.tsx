@@ -31,7 +31,7 @@ import {
 import { useAuthStore } from "@/store/useAuthStore";
 
 type MenuItemProps = {
-   icon: React.ReactNode;
+   icon?: React.ReactNode;
    label: string;
    href?: string;
    children?: MenuItemProps[];

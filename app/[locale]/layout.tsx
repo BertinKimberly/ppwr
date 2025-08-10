@@ -24,13 +24,13 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({
    children,
-   params: { locale },
+   params,
 }: {
    children: React.ReactNode;
-   params: { locale: string };
+   params: Promise<{ locale: string }>;
 }) {
-   // Log received locale for debugging
-   console.log("RootLayout - Received locale:", locale);
+   // Await the params Promise to get the locale
+   const { locale } = await params;
 
    // Fallback to default locale if locale is undefined or invalid
    const validLocale =
