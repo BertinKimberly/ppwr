@@ -3,7 +3,7 @@ import { locales, defaultLocale } from "@/i18n/routing";
 
 // Base configuration for API requests
 const BASE_URL =
-   process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
+   process.env.NEXT_PUBLIC_API_URL || "https://ppwr-backend.onrender.com/api/v1";
 
 // Function to get token from cookies
 const getToken = () => {
