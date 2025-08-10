@@ -20,15 +20,25 @@ export function DashboardNavbar({
 
    // Generate breadcrumbs based on clean pathname
    const segments = cleanPathname.split("/").filter(Boolean);
-   const breadcrumbs = segments.map((segment: string, index: number) => {
-      const href = "/" + segments.slice(0, index + 1).join("/");
-      return {
-         label:
-            t(segment) || segment.charAt(0).toUpperCase() + segment.slice(1),
-         href,
-         isLast: index === segments.length - 1,
-      };
-   });
+   const breadcrumbs =
+      segments.length === 0
+         ? [
+              {
+                 label: t("dashboard"),
+                 href: "/dashboard",
+                 isLast: true,
+              },
+           ]
+         : segments.map((segment: string, index: number) => {
+              const href = "/" + segments.slice(0, index + 1).join("/");
+              return {
+                 label:
+                    t(segment) ||
+                    segment.charAt(0).toUpperCase() + segment.slice(1),
+                 href,
+                 isLast: index === segments.length - 1,
+              };
+           });
 
    // Determine if back button should be shown (not on root and has more than one segment)
    const showBackButton = cleanPathname !== "/" && segments.length > 1;
