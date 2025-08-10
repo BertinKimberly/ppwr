@@ -1,0 +1,186 @@
+{
+  "Sidebar": {
+    "dashboard": "Dashboard",
+    "overview": "Overview",
+    "analytics": "Analytics",
+    "products": "Products",
+    "productList": "Product List",
+    "addProduct": "Add Product",
+    "packaging": "Packaging",
+    "packagingManagement": "Packaging Management", 
+    "categories": "Categories",
+    "reporting": "Reporting",
+    "reports": "Reports",
+    "exports": "Exports"
+  },
+  "Breadcrumbs": {
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "packaging": "Packaging",
+    "categories": "Categories",
+    "reporting": "Reporting",
+    "actions": {
+      "back": "Back"
+    }
+  },
+  "Packaging": {
+    "title": "Packaging Management",
+    "description": "Manage your packaging and their components",
+    "actions": {
+      "newPackaging": "New Packaging",
+      "savePackaging": "Save Packaging",
+      "back": "Back",
+      "view": "View",
+      "edit": "Edit", 
+      "delete": "Delete",
+      "open": "Open",
+      "addProduct": "Add Product",
+      "export": "Export"
+    },
+    "tabs": {
+      "information": "Information",
+      "components": "Components",
+      "documents": "Documents",
+      "all": "All",
+      "active": "Active",
+      "inactive": "Inactive",
+      "draft": "Draft"
+    },
+     "emptyHint": "You can create a new packaging by clicking on the button above.",
+    "filters": {
+      "material": "Material",
+      "ppwrLevel": "PPWR Level",
+      "status": "Status", 
+      "conformityDeclaration": "Conformity Declaration",
+      "creationDate": "Creation Date",
+      "removeAll": "Remove All Filters"
+    },
+    "search": {
+      "placeholder": "Search"
+    },
+    "stats": {
+      "all": "All",
+      "active": "Active",
+      "inactive": "Inactive",
+      "draft": "Draft"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive", 
+      "draft": "Draft",
+      "deactivated": "Deactivated"
+    },
+    "table": {
+      "name": "Name",
+      "internalCode": "Internal Code",
+      "materials": "Materials", 
+      "status": "Status",
+      "weight": "Weight",
+      "ppwrLevel": "PPWR"
+    },
+    "information": {
+      "basic": "Basic Information",
+      "name": "Name",
+      "internalCode": "Internal Code",
+      "gtin": "GTIN/Item No.",
+      "assemblyCountry": "Assembly Country",
+      "salesCountries": "Sales Countries",
+      "salesPartner": "Sales Partner",
+      "assignProducts": "Assign Products"
+    },
+    "components": {
+      "title": "Components",
+      "name": "Name",
+      "format": "Format",
+      "weight": "Weight",
+      "volume": "Volume", 
+      "ppwrCategory": "PPWR Category",
+      "ppwrLevel": "PPWR Level",
+      "quantity": "Quantity",
+      "supplier": "Supplier",
+      "manufacturingProcess": "Manufacturing Process",
+      "color": "Color",
+      "type": "Type",
+      "typeOptions": {
+         "separat": "Separate",
+         "integriert": "Integrated"
+      },
+      "edit": "Edit Components",
+      "addNew": "Add New Component"
+    },
+    "placeholders": {
+      "componentName": "e.g. Yogurt Cup",
+      "format": "e.g. Cup",
+      "weight": "e.g. 300g",
+      "volume": "e.g. 300ml",
+      "supplier": "e.g. ACME Inc.",
+      "manufacturingProcess": "e.g. Thermoforming",
+      "color": "e.g. Green",
+      "materialName": "e.g. Main Material Layer",
+      "materialType": "e.g. Plastic / PE / PET-A",
+      "materialWeight": "e.g. 8g",
+      "materialThickness": "e.g. 200μm",
+      "materialPercentage": "e.g. 80%"
+   },
+    "materials": {
+      "layers": "Material Layers",
+      "function": "Function",
+      "material": "Material",
+      "weight": "Weight",
+      "thickness": "Thickness",
+      "percentage": "Percentage",
+      "addLayer": "Add Layer",
+      "edit": "Edit Layers"
+    },
+    "documents": {
+      "conformityDeclaration": "Conformity Declaration",
+      "technicalDocumentation": "Technical Documentation",
+      "dragDrop": "Browse files or drag & drop",
+      "selectFiles": "Select Files",
+      "autoGenerate": "Auto Generate",
+      "noDocuments": "No documents uploaded yet"
+    },
+    "pagination": {
+      "back": "Back",
+      "next": "Next"
+    },
+    "loading": "Loading...",
+    "empty": "No packaging found."
+  },
+  "SignIn": {
+    "title": "Sign In",
+    "subtitle": "Welcome back! Please enter your credentials",
+    "email": "Email Address",
+    "emailPlaceholder": "Enter your email",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "signIn": "Sign In",
+    "loggingIn": "Logging In...",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign Up",
+    "success": "Login Successful",
+    "loginSuccess": "You have successfully logged in",
+    "error": "Login Error",
+    "loginError": "Unable to log in. Please check your credentials."
+  },
+  "SignUp": {
+    "title": "Create an Account",
+    "subtitle": "Join PPWRify and start managing your packaging",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Enter your full name",
+    "email": "Email Address",
+    "emailPlaceholder": "Enter your email",
+    "password": "Password",
+    "passwordPlaceholder": "Create a strong password",
+    "signUp": "Sign Up",
+    "registering": "Creating Account...",
+    "alreadyHaveAccount": "Already have an account?",
+    "signIn": "Sign In",
+    "success": "Registration Successful",
+    "registrationSuccess": "Your account has been created successfully",
+    "error": "Registration Error",
+    "registrationError": "Unable to create account. Please try again."
+  }
+}
+
+

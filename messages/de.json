@@ -1,0 +1,146 @@
+{
+  "Sidebar": {
+    "dashboard": "Dashboard",
+    "overview": "Übersicht",
+    "analytics": "Analysen",
+    "products": "Produkte",
+    "productList": "Produktliste",
+    "addProduct": "Produkt hinzufügen",
+    "packaging": "Verpackung",
+    "packagingManagement": "Verpackungsverwaltung", 
+    "categories": "Kategorien",
+    "reporting": "Berichterstattung",
+    "reports": "Berichte",
+    "exports": "Exporte"
+  },
+  "Breadcrumbs": {
+    "dashboard": "Dashboard",
+    "products": "Produkte",
+    "packaging": "Verpackung",
+    "categories": "Kategorien",
+    "reporting": "Berichterstattung",
+    "actions": {
+      "back": "Zurück"
+    }
+  },
+ "Packaging": {
+    "title": "Verpackungsverwaltung",
+    "description": "Verwalten Sie Ihre Verpackungen und deren Komponenten",
+    "actions": {
+      "newPackaging": "Neue Verpackung erstellen",
+      "savePackaging": "Verpackung speichern",
+      "back": "Zurück",
+      "view": "Ansehen",
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "open": "Öffnen",
+      "addProduct": "Produkt hinzufügen",
+      "export": "Exportieren"
+    },
+    "tabs": {
+      "information": "Informationen",
+      "components": "Bestandteile",
+      "documents": "Dokumente",
+      "all": "Alle",
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "draft": "Entwurf"
+    },
+    "emptyHint": "Sie können eine neue Verpackung erstellen, indem Sie auf die Schaltfläche oben klicken.",
+    "filters": {
+      "material": "Material",
+      "ppwrLevel": "PPWR Stufe", 
+      "status": "Status",
+      "conformityDeclaration": "Konformitätserklärung",
+      "creationDate": "Erstelldatum",
+      "removeAll": "Alle Filter entfernen"
+    },
+    "search": {
+      "placeholder": "Suche"
+    },
+    "stats": {
+      "all": "Alle",
+      "active": "Aktiv",
+      "inactive": "Inaktiv", 
+      "draft": "Entwurf"
+    },
+    "status": {
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "draft": "Entwurf",
+      "deactivated": "Deaktiviert"
+    },
+    "table": {
+      "name": "Bezeichnung",
+      "internalCode": "Interne Kennung",
+      "materials": "Materialien",
+      "status": "Status",
+      "weight": "Gewicht",
+      "ppwrLevel": "PPWR"
+    },
+    "information": {
+      "basic": "Grundinformationen",
+      "name": "Bezeichnung",
+      "internalCode": "Interne Kennung",
+      "gtin": "GTIN/Art. Nr.",
+      "assemblyCountry": "Montageland",
+      "salesCountries": "Vertriebsländer",
+      "salesPartner": "Vertriebspartner",
+      "assignProducts": "Produkte zuweisen"
+    },
+    "components": {
+      "name": "Bezeichnung",
+      "format": "Format",
+      "weight": "Gewicht",
+      "volume": "Volumen",
+      "quantity": "Anzahl",
+      "supplier": "Lieferant",
+      "manufacturingProcess": "Herstellungsverfahren", 
+      "color": "Farbe",
+      "type": "Typ",
+      "typeOptions": {
+         "separat": "Separat",
+         "integriert": "Integriert"
+      },
+      "addNew": "Neues Bestandteil anlegen",
+      "ppwrCategory": "PPWR Kategorie",
+      "ppwrLevel": "PPWR Stufe"
+    },
+    "placeholders": {
+      "componentName": "z.B. Joghurtbecher",
+      "format": "z.B. Becher",
+      "weight": "z.B. 300g",
+      "volume": "z.B. 300ml",
+      "supplier": "z.B. ACME Inc.",
+      "manufacturingProcess": "z.B. Thermoformen",
+      "color": "z.B. Grün",
+      "materialName": "z.B. Hauptmaterialschicht",
+      "materialType": "z.B. Kunststoff / PE / PET-A",
+      "materialWeight": "z.B. 8g",
+      "materialThickness": "z.B. 200μm",
+      "materialPercentage": "z.B. 80%"
+    },
+    "materials": {
+      "layers": "Materialschichten",
+      "function": "Funktion",
+      "material": "Material",
+      "weight": "Gewicht",
+      "thickness": "Dicke",
+      "percentage": "Anteil",
+      "addLayer": "Schicht hinzufügen",
+      "edit": "Schichten bearbeiten"
+    },
+    "documents": {
+      "conformityDeclaration": "Konformitätserklärung",
+      "technicalDocumentation": "Technische Dokumentation",
+      "dragDrop": "Dateien durchsuchen oder drag & drop",
+      "selectFiles": "Dateien auswählen",
+      "autoGenerate": "Automatisch generieren",
+      "noDocuments": "Noch keine Dokumente hochgeladen"
+    },
+    "pagination": {
+      "back": "Zurück",
+      "next": "Weiter"
+    }
+  }
+}
